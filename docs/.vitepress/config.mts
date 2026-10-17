@@ -48,7 +48,7 @@ export default defineConfig({
 
   head: [
     ['meta', { name: 'keywords', content: '孤岛求生, 荒岛求生, 生存手册, 科学求生, 荒野求生, 鲁滨逊漂流记' }],
-    ['meta', { name: 'author', content: '林深' }],
+    ['meta', { name: 'author', content: '林克' }],
     ['link', { rel: 'icon', href: 'data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏝️</text></svg>' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
