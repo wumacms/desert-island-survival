@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" fill="none">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d9488" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#d97706" stop-opacity="0.25"/>
+    </linearGradient>
+    <linearGradient id="sunGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+    <linearGradient id="islandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14b8a6"/>
+      <stop offset="100%" stop-color="#0f766e"/>
+    </linearGradient>
+    <linearGradient id="sandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <linearGradient id="seaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Ambient Circle -->
+  <circle cx="120" cy="120" r="100" fill="url(#skyGrad)" />
+
+  <!-- Rising Sun -->
+  <circle cx="120" cy="95" r="32" fill="url(#sunGrad)" opacity="0.9"/>
+
+  <!-- Background Birds -->
+  <path d="M75 70 Q82 64 89 70 Q96 64 103 70" stroke="#0f766e" stroke-width="2.2" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M145 60 Q150 55 155 60 Q160 55 165 60" stroke="#0f766e" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.5"/>
+
+  <!-- Island Hills & Palm Base -->
+  <ellipse cx="120" cy="155" rx="72" ry="24" fill="url(#sandGrad)"/>
+  <ellipse cx="120" cy="150" rx="60" ry="18" fill="url(#islandGrad)"/>
+
+  <!-- Palm Trunk -->
+  <path d="M125 150 Q130 115 110 95" stroke="#78350f" stroke-width="6" stroke-linecap="round" fill="none"/>
+  
+  <!-- Palm Leaves -->
+  <path d="M110 95 Q90 85 75 98" stroke="#10b981" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+  <path d="M110 95 Q100 70 95 60" stroke="#10b981" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+  <path d="M110 95 Q125 72 135 68" stroke="#10b981" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+  <path d="M110 95 Q140 85 145 102" stroke="#10b981" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+  <path d="M110 95 Q115 110 100 118" stroke="#059669" stroke-width="4" stroke-linecap="round" fill="none"/>
+
+  <!-- Sea waves -->
+  <path d="M40 170 Q75 164 110 170 T180 170 T200 170" stroke="url(#seaGrad)" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <path d="M25 186 Q65 180 105 186 T185 186 T215 186" stroke="url(#seaGrad)" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.8"/>
+  <path d="M45 200 Q80 195 115 200 T185 200" stroke="url(#seaGrad)" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.6"/>
+</svg>
